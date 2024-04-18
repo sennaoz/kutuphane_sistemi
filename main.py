@@ -8,6 +8,7 @@ while hold!=1 and hold!=2:
     print("Hatali Giris")
     hold = int(input("Admin icin 1, Kullanici icin 2 Girin:"))
     
+    
 else:
     if hold==1:
         username = input("Lutfen admin adinizi girin:")
