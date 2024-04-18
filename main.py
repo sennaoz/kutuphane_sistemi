@@ -2,6 +2,8 @@ from KutuphaneSistemi import BookLinkedList
 
 admin_info = {"rabiaduygu": "1231", "senaozen" : "1232", "emirhanoguz" : "1233", "emirkara" : "1234"}
 
+
+
 hold = int(input("Admin icin 1, Kullanici icin 2 Girin:"))
 #print(type(hold))
 while hold!=1 and hold!=2:
